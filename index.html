@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Mudar de "en" para "pt-br" -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inserção de favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/starbucks-favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Clone Starbucks</title>
+</head>
+<body>
+    <!-- Tag semântica principal -->
+    <main>
+        <!-- Div do circulo -->
+        <div class="circulo"></div>
+
+        <!-- Header -->
+        <header>
+            <!-- Imagem logo -->
+            <a href="#"><img src="assets/logo.png" alt="logo" class="logo"></a>
+
+            <!-- Div para menu hambúrguer (em telas menores - 3 barras/pontinhos).
+             toogleMenu é uma função do JavaScript -->
+             <div class="toggle" onclick="toogleMenu();"></div>
+
+             <!-- Menu (links) -->
+              <ul class="links">
+                <li><a href="https://www.starbucks.com.br/" target="_blank">Home</a></li>
+                <li><a href="https://www.starbucks.com.br/menu-list" target="_blank">Menu</a></li>
+                <li><a href="https://www.starbucks.com.br/responsabilidade" target="_blank">Novidades</a></li>
+                <li><a href="https://www.starbucks.com.br/lojas" target="_blank">Lojas</a></li>
+              </ul>
+        </header>
+
+        <!-- Conteúdo -->
+        <div class="conteudo">
+            <div class="textoPrincipal">
+
+                <!-- Texto principal -->
+                 <h2>Não é apenas um café: <br><span>Starbucks</span></h2>
+
+                 <!-- Texto secundário -->
+                  <p>Descubra um mundo de sabores inesquecíveis com a Starbucks. Cada colherada é uma explosão de sabores irresistíveis que vão te conquistar!</p>
+
+                <!-- Botão -->
+                 <a href="https://www.starbucks.com.br/" target="_blank">Veja mais</a>
+            </div>
+
+            <!-- Imagem do sorvete -->
+             <div class="imgBox"><img src="assets/img1.png" alt="copo" class="starbucks"></div>
+        </div>
+
+        <!-- Imagem copos pequenos -->
+         <ul class="sorvetes">
+            <li><img src="assets/thumb1.png" onclick="imgSlider('assets/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="assets/thumb2.png" onclick="imgSlider('assets/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="assets/thumb3.png" onclick="imgSlider('assets/img3.png');changeCircleColor('#d752b1')"></li>
+         </ul>
+
+    </main>
+</body>
+</html>
