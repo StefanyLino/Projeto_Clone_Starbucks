@@ -12,4 +12,4 @@
 - **CSS** (Cascading Style Sheets) cuida da apresentação visual. Com o CSS, é possível estilizar o HTML, alterando cores, fontes e layouts, permitindo que os desenvolvedores criem designs atraentes e responsivos.
 - **JavaScript** adiciona interatividade às páginas. Ele permite que os desenvolvedores implementem funcionalidades dinâmicas, como animações, validação de formulários e manipulação de dados em tempo real.
 #
-Acompanhe o funcionamento do site acessando:
+### Acompanhe o funcionamento do site acessando o vídeo de [resultado](https://github.com/StefanyLino/Projeto_Clone_Starbucks/blob/04febbdf9f6e2c8aa6e76b941600531b63e502c7/Resultado.mp4).
